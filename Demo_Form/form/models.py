@@ -20,7 +20,7 @@ class MyUser(models.Model):
     ('1100000','11Lakh Rs S.A.F Patron Trustee'),
     ('5100000','51Lakh Rs S.A.F Board of Trustee'),
     ]
-    Membership = models.CharField(max_length=6,choices=MEMBERS, null=True)
+    Membership = models.CharField(max_length=7,choices=MEMBERS, null=True)
     CAREERS = [
     ('BI','Business & Industry'),
     ('JL','Judicial & Legal Services'),
